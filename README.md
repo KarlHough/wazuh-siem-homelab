@@ -27,6 +27,7 @@ Machines used in the lab:
 From the Kali attacker machine, an Nmap scan was performed against the victim host.
 nmap -sS 192.168.56.103
 ![Nmap Scan](screenshots/nmap-scan.png)
+
 Multiple failed SSH login attempts were performed to simulate a credential attack.
 ssh test@192.168.56.103
 ![SSH Attack](screenshots/ssh-attacker.png)
